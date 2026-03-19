@@ -1,0 +1,9 @@
+{
+    "eans": [
+        "4007430162632",
+        "4003017133490"
+    ],
+    "shops": ["hornbach", "obi", "bauhaus", "amazon", "globus"],
+    "maxConcurrency": 2,
+    "requestTimeoutSecs": 30
+}

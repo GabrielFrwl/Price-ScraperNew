@@ -1,0 +1,18 @@
+{
+    "name": "baumarkt-price-scraper",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Apify Actor – scrapes product prices from Baumärkte by EAN",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "node src/main.js",
+        "dev": "APIFY_IS_AT_HOME=false node src/main.js"
+    },
+    "dependencies": {
+        "apify": "^3.2.0",
+        "crawlee": "^3.9.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
